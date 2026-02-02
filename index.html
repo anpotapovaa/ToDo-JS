@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Твой список дел</title>
+</head>
+
+<body>
+    <div class="app">
+        <h1 class="title">To Do</h1>
+
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Введите задачу...">
+            <button class="btn" id="addTaskBtn">Добавить</button>
+        </div>
+
+
+        <div class="filters">
+            <button class="btn filter" data-filter="all">Все</button>
+            <button class="btn filter" data-filter="completed">Выполненные</button>
+            <button class="btn filter" data-filter="uncompleted">Невыполненные</button>
+        </div>
+
+
+        <div class="list" id="taskList"></div>
+
+
+        <div class="btns-container">
+            <button class="btn" id="clearBtn">Очистить</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
