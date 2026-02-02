@@ -78,11 +78,11 @@ body {
 }
 
 .btn.filter {
-    background-color: rgba(229, 209, 235, 0.76);
+    background-color: rgba(216, 213, 213, 0.76);
 }
 
 .btn.filter:hover {
-    background-color: rgba(200, 160, 220, 0.85);
+    background-color: rgba(192, 192, 192, 0.85);
 }
 
 .app .btns-container {
